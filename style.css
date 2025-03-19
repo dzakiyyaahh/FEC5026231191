@@ -1,0 +1,66 @@
+        .error-msg {
+            color: red;
+            font-size: 0.9rem;
+            display: none;
+        }
+
+        .logo-img {
+            width: 150px;
+            height: auto;
+        }
+
+        .card {
+            max-width: 375px;
+            width: 100%;
+            height: 667px; /* iPhone screen height for 9:16 ratio */
+            border-radius: 15px;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+
+        .form-label {
+            font-weight: bold;
+        }
+
+        .btn-dark {
+            background-color: #343a40;
+            border-color: #343a40;
+        }
+
+        .btn-dark:hover {
+            background-color: #23272b;
+            border-color: #1d2124;
+        }
+
+        .links-container {
+            display: flex;
+            flex-direction: column; 
+            align-items: center;
+            font-size: 0.9rem;
+            color: #343a40;
+            margin-top: 10px;
+        }
+
+        .links-container a {
+            color: #343a40;
+            margin-bottom: 5px;
+        }
+
+        .links-container a:hover {
+            text-decoration: underline;
+        }
+
+        .footer-text {
+            font-size: 0.85rem;
+            background-color: #d5d5d5;
+            padding: 10px;
+            text-align: center;
+            border-radius: 5px;
+        }
+
+        .form-control {
+            background-color: #d5d5d5; 
+            border: 1px solid #ccc;
+        }        
